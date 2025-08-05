@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="main-wrapper">
       <nav className="navbar">
-        <div className="logo">Invint</div>
+        <div className="app-name">Invint</div>
         <ul className="nav-links">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About Us</a></li>
