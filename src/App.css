@@ -75,13 +75,12 @@ body {
   letter-spacing: 2px;
 }
 .nav-links {
-  list-style: none;
-  display: flex;
-  gap: 2rem;
-  margin: 0;
-  padding: 0;
-  justify-content: flex-end;
-}
+list-style: none;
+display: flex;
+gap: 2rem;
+margin: 0;
+padding: 0;
+justify-content: flex-end;
 }
 .logo {
   font-size: 1.5rem;
@@ -131,6 +130,10 @@ body {
   box-shadow: 0 2px 8px rgba(60,72,88,0.08);
   padding: 2rem;
   width: 100%;
+  flex: 1 1 300px;
+  text-align: center;
+}
+
 @media (max-width: 900px) {
   .about,
   .contact {
@@ -140,9 +143,6 @@ body {
     padding: 1rem;
     margin-bottom: 1rem;
   }
-}
-  flex: 1 1 300px;
-  text-align: center;
 }
 .service img {
   width: 120px;
